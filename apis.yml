@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://www.hko.gov.hk/en/abouthko/opendata_intro.htm
 common:
+  - type: DomainSecurity
+    url: security/hong-kong-obervatory-domain-security.yml
   - type: Website
     url: https://www.hko.gov.hk/en/abouthko/opendata_intro.htm
   - type: PublicAPIsListing
