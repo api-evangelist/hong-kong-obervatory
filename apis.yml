@@ -1,4 +1,16 @@
 aid: hong-kong-obervatory
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hong-kong-obervatory.png
 name: Hong Kong Obervatory
 description: "Provide weather information, earthquake information, and climate data"
 url: https://www.hko.gov.hk/en/abouthko/opendata_intro.htm
