@@ -39,7 +39,6 @@ apis:
   - name: Hong Kong Obervatory
     description: "Provide weather information, earthquake information, and climate data"
     humanURL: https://www.hko.gov.hk/en/abouthko/opendata_intro.htm
-    baseURL: https://www.hko.gov.hk/en/abouthko/opendata_intro.htm
     tags:
       - Weather
     properties:
