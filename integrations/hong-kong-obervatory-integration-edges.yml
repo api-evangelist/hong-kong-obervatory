@@ -1,0 +1,51 @@
+edges:
+- partner_name: World Meteorological Organization (WIS 2.0)
+  partner: wmo
+  partner_match: register
+  type: register
+  direction: partner-built
+  channel: standard-directory
+  relationship: standard-participant
+  evidence: https://wis2-gdc.weather.gc.ca/collections/wis2-discovery-metadata/items?f=json&centre-id=hk-hko
+  match:
+    method: domain+verified
+    domain: hko.gov.hk
+    seen_as:
+    - contact email
+    - contact link
+    verified: 'GDC hk-hko: organization ''Hong Kong Observatory'', hko.gov.hk; the repo slug is misspelt (obervatory)
+      and so fails the name check, its apis.yml Website is www.hko.gov.hk'
+  wis2:
+    centre_id: hk-hko
+    organization: Hong Kong Observatory
+    datasets: 20
+    data_policy:
+    - core
+    disciplines:
+    - weather
+    access:
+    - https
+    - mqtt-notification
+    catalogues:
+    - gdc.wis2dev.io
+    - wis2-gdc.weather.gc.ca
+    sample_record: urn:wmo:md:hk-hko:http:core.weather.space-based-observations.noaa-18.amsu-a
+  contract_reference:
+    register: WMO WIS2 Global Discovery Catalogue (wis2-gdc.weather.gc.ca, gdc.wis2dev.io)
+    spec_file: null
+    role: wis2-centre
+    registered_name: Hong Kong Observatory
+    register_id: hk-hko
+    matched_domain: hko.gov.hk
+    detected_by: sweep-weather.py
+    detected: '2026-10-15'
+  detected_by: sweep-weather.py
+  first_seen: '2026-10-15'
+generated: '2026-10-15'
+method: searched
+checked:
+- https://gdc.wis2dev.io/collections/wis2-discovery-metadata/items?f=json&limit=3000
+- https://wis2-gdc.weather.gc.ca/collections/wis2-discovery-metadata/items?f=json&limit=3000
+source:
+- https://wis2-gdc.weather.gc.ca/collections/wis2-discovery-metadata/items?f=json&limit=3000
+- https://gdc.wis2dev.io/collections/wis2-discovery-metadata/items?f=json&limit=3000
